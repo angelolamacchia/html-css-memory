@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#5F9EA0;
+}
+
+body {
+  font-family: 'Nerko One', cursive;
+  width: 60%;
+  margin: 0 auto;
+  width: 800px;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  position: relative;
+  left: 30%;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.row {
+  margin: 30px 50px;
+  height: 150px;
+}
+.card {
+  display: inline-block;
+  width: 22%;
+  height: 170px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid grey;
+  margin: 8px;
+  background-image: url(../img/pattern.png);
+  background-position: center;
+  background-size: 350px 120px;
+}
